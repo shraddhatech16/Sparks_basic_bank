@@ -69,9 +69,9 @@ body{
 <!------ Include the above in your HEAD tag ---------->
 
 <div class="container contact-form">
-            <div class="contact-image">
+            <!-- <div class="contact-image">
                 <img src="../rocket-png-40811.png" alt="msg_to_contact"/>
-            </div>
+            </div> -->
             <form method="post">
                 <h3>Drop Us a Message</h3>
                <div class="row">

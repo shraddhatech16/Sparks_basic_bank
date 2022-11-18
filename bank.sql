@@ -40,9 +40,9 @@ CREATE TABLE `transaction` (
 --
 
 INSERT INTO `transaction` (`sno`, `sender`, `receiver`, `balance`, `datetime`) VALUES
-(2, 'Ram', 'Deepak', 9, '2022-04-09 18:08:56'),
-(3, 'Namami', 'Juhi', 100, '2022-04-10 14:55:43'),
-(4, 'Ram', 'Tarun', 1, '2022-04-16 14:58:55'),
+(2, 'Lakki', 'Sandeep', 9, '2022-04-09 18:08:56'),
+(3, 'Saundarya', 'Juhi', 100, '2022-04-10 14:55:43'),
+(4, 'Lakki', 'Gaurav', 1, '2022-04-16 14:58:55'),
 (5, 'Sara', 'Nimesh', 7000, '2022-06-03 21:49:16'),
 (6, 'Nimesh', 'Sara', 5000, '2022-06-05 20:41:06'),
 (7, 'Sara', 'Nimesh', 8000, '2022-06-05 23:34:40'),
@@ -68,14 +68,14 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`id`, `name`, `email`, `balance`) VALUES
 (1, 'Sara', 'sarakhan@gmail.com', 75000),
 (2, 'Nimesh', 'nimesh18@gmail.com', 20000),
-(3, 'Namami', 'namamishah@gmail.com', 39990),
-(4, 'Priyanka', 'priyanka12@gmail.com', 10500),
+(3, 'Saundarya', 'Saundaryavakade@gmail.com', 39990),
+(4, 'katrina', 'katrina60@gmail.com', 10500),
 (5, 'Rohit', 'rohitsaraf@gmail.com', 40200),
-(6, 'Ram', 'rampatil@gmail.com', 19990),
-(7, 'Deepak', 'deepak1298@gmail.com', 50809),
+(6, 'Lakki', 'Lakki@gmail.com', 19990),
+(7, 'Sandeep', 'Sandeepmahe@gmail.com', 50809),
 (8, 'Juhi', 'ramodjuhi99@gmail.com', 40100),
 (9, 'Nayan', 'dixitnayan88@gmail.com', 30000),
-(10, 'Tarun', 'tarunkgill34@gmail.com', 50000);
+(10, 'Gaurav', 'Gauravgill34@gmail.com', 50000);
 
 --
 -- Indexes for dumped tables

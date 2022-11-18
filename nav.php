@@ -25,13 +25,13 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item btn btn-secondary">
-            <a class="nav-link text-white" href="index.php">Home</a>
+            <a class="nav-link text-red" href="index.php">Home</a>
           </li>
           <li class="nav-item btn btn-secondary">
-            <a class="nav-link link-text text-white" href="https://www.linkedin.com/in/shraddha-alawane-780334212">About Me</a>
+            <a class="nav-link link-text text-green" href="https://www.linkedin.com/in/shraddha-alawane-780334212">About Me</a>
           </li>
           <li class="nav-item btn btn-secondary">
-            <a class="nav-link link-text text-white" href="contactme.php">Contact me</a>
+            <a class="nav-link link-text text-blue" href="contactme.php">Contact me</a>
           </li>
         </ul>
       </div>

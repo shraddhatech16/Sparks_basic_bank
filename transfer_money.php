@@ -7,7 +7,7 @@
 <?php include('nav.php'); ?>
 
 <div class="container">
-        <h1>Transfer Money</h1>
+        <h1>Transfer Money within Seconds</h1>
         <br>
             <div class="row">
                 <div class="col">
@@ -17,9 +17,9 @@
                             <tr>
                             <th scope="col" class="text-center py-2">Id</th>
                             <th scope="col" class="text-center py-2">Name</th>
-                            <th scope="col" class="text-center py-2">E-Mail</th>
+                            <th scope="col" class="text-center py-2">E-Mail ID</th>
                             <th scope="col" class="text-center py-2">Balance</th>
-                            <th scope="col" class="text-center py-2">Operation</th>
+                            <th scope="col" class="text-center py-2">Transfer</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -31,7 +31,7 @@
                         <td class="py-2"><?php echo $rows['name']?></td>
                         <td class="py-2"><?php echo $rows['email']?></td>
                         <td class="py-2"><?php echo $rows['balance']?></td>
-                        <td><a href="selectuserdetail.php?id= <?php echo $rows['id'] ;?>"> <button type="button" class="btn btn-success">Transact</button></a></td> 
+                        <td><a href="selectuserdetail.php?id= <?php echo $rows['id'] ;?>"> <button type="button" class="btn btn-success">Transfer</button></a></td> 
                     </tr>
                 <?php
                     }

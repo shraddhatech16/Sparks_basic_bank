@@ -8,7 +8,7 @@
 }
 
 .bg{
-    background-image: url('../img/bank.jpg');
+    background-image: url('../img/bg.jpg');
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -26,18 +26,18 @@
 h1{
     background-color:#1e272e;
     cursor: pointer;
-    color: #ffd32a;
+    color: #bbb5f1 !important;
     text-align: center;
     height: 70px;
     margin-bottom: 0 !important;
     border: 0 !important;
     height: auto;
     transform: 1s;
-    font-family: 'Suez One', serif;
+    font-family: 'Poppins', serif;
 }
 
 h1:hover{
-    background-color: #ffd32a;
+    background-color: #337be7 !important;
     color:black;
     transition-duration: 1s;
 }

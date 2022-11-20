@@ -3,14 +3,14 @@
 <style>
 
 body{
-    background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+    background: -webkit-linear-gradient(left, #aaf57f, #65e31e);
 }
 
 .contact-form{
     background: #fff;
     margin-top: 10%;
-    margin-bottom: 5%;
-    width: 70%;
+    margin-bottom: 10%;
+    width: 120%;
 }
 
 .contact-form .form-control{
@@ -18,33 +18,27 @@ body{
 }
 
 .contact-image{
-    text-align: center;
+    text-align: left;
 }
 
-.contact-image img{
-    border-radius: 6rem;
-    width: 11%;
-    margin-top: -3%;
-    transform: rotate(29deg);
-}
 
 .contact-form form{
-    padding: 14%;
+    padding: 30%;
 }
 
 .contact-form form .row{
-    margin-bottom: -7%;
+    margin-bottom: -10%;
 }
 
-.contact-form h3{
+.contact-form h2{
     margin-bottom: 8%;
     margin-top: -10%;
-    text-align: center;
-    color: #0062cc;
+    text-align: left;
+    color: #cc0000;
 }
 
 .contact-form .btnContact {
-    width: 50%;
+    width: 100%;
     border: none;
     border-radius: 1rem;
     padding: 1.5%;
@@ -56,44 +50,46 @@ body{
 
 .btnContactSubmit
 {
-    width: 50%;
+    width: 100%;
     border-radius: 1rem;
-    padding: 1.5%;
+    padding: 2%;
     color: #fff;
-    background-color: #0062cc;
+    background-color: #aaf57f;
     border: none;
     cursor: pointer;
 }
 
 </style>
-<!------ Include the above in your HEAD tag ---------->
 
 <div class="container contact-form">
-            <!-- <div class="contact-image">
-                <img src="../rocket-png-40811.png" alt="msg_to_contact"/>
-            </div> -->
+            
             <form method="post">
-                <h3>Drop Us a Message</h3>
+                <h2>Drop Us a Message</h2>
                <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                            <input type="text" name="txtName" class="form-control" placeholder="Name *" value="" />
                         </div>
                         <div class="form-group">
-                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Email ID*" value="" />
                         </div>
                         <div class="form-group">
-                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Contact Number *" value="" />
                         </div>
+                        <div class="col-md-6">
                         <div class="form-group">
-                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                            <textarea name="txtMsg" class="form-control" placeholder="Message *" style="width: 150%; height: 150px;"></textarea>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Drop a Message" />
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-6">
                         <div class="form-group">
                             <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </form>
 </div>

@@ -7,6 +7,24 @@
 h2{
 	font-size: 40px;
 }
+h1{
+    background-color:#1e272e;
+    cursor: pointer;
+    color: #bbb5f1 !important;
+    text-align: center;
+    height: 70px;
+    margin-bottom: 0 !important;
+    border: 0 !important;
+    height: auto;
+    transform: 1s;
+    font-family: 'Suez One', serif;
+}
+
+h1:hover{
+    background-color: #337be7 !important;
+    color:black;
+    transition-duration: 1s;
+}
 
 table{
 	letter-spacing: 1.2px;

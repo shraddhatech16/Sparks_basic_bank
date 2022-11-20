@@ -3,7 +3,7 @@
 ?>
 
 	<div class="container">
-        <h2 class="text-center pt-4">Transaction History</h2>
+        <h2 class="text-center pt-4">History</h2>
         
        <br>
        <div class="table-responsive-sm">
@@ -13,7 +13,7 @@
                 <th class="text-center">S.No.</th>
                 <th class="text-center">Sender</th>
                 <th class="text-center">Receiver</th>
-                <th class="text-center">Amount</th>
+                <th class="text-center">Amount $</th>
                 <th class="text-center">Date & Time</th>
             </tr>
         </thead>
